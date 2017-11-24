@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane prefHeight="549.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="539.0" fitWidth="700.0" layoutX="10.0" layoutY="10.0" />
+      <Pane layoutX="380.0" layoutY="68.0" prefHeight="425.0" prefWidth="336.0" style="-fx-background-color: transparent; -fx-background-radius: 120px;">
+         <effect>
+            <DropShadow color="#404040" />
+         </effect>
+         <children>
+            <JFXButton layoutX="69.0" layoutY="274.0" prefHeight="43.0" prefWidth="202.0" style="-fx-background-radius: 50px; -fx-background-color: blue;" text="SIGN IN" textFill="#fcfcfc" />
+            <JFXTextField alignment="CENTER" focusColor="#405aa800" labelFloat="true" layoutX="66.0" layoutY="144.0" maxWidth="202.0" minWidth="184.0" prefHeight="36.0" prefWidth="202.0" promptText="USERNAME" style="-fx-border-radius: 50PX; -fx-border-color: #fff;" unFocusColor="#4d4d4d00">
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXPasswordField alignment="CENTER" focusColor="#405aa800" labelFloat="true" layoutX="68.0" layoutY="197.0" maxWidth="202.0" minWidth="182.0" prefHeight="43.0" prefWidth="202.0" promptText="PASSWORD" style="-fx-border-radius: 50PX; -fx-border-color: #fff;" unFocusColor="#4d4d4d00">
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </JFXPasswordField>
+            <JFXButton layoutX="67.0" layoutY="334.0" prefHeight="43.0" prefWidth="202.0" ripplerFill="#7c7c7c" style="-fx-background-radius: 50px;" text="FOGOT PASSWORD" textFill="WHITE" underline="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+.text-field{
+    -fx-text-fill: #fff6fc;
+    -fx-font-size: 14px;
+}
+
+.retoque{
+	-fx-background-radius: 20px;
+	-fx-background-color: #000;
+}
