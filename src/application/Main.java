@@ -7,15 +7,13 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-// TODO: Auto-generated Javadoc
 /**
- * The Class Main.
- *
- * @author 21650521
- * @version 1-2014
- * @since 1-1-2014
+ * The main class
+ * @author Javier Pérez
+ * @version 1-2017
+ * @since 24-11-2017
+ * @see SampleController
  */
-
 	
 	public class Main extends Application {
 
@@ -23,8 +21,6 @@ import javafx.stage.Stage;
     Stage stage;
 
     /**
-     *  
-     *
      * @param primaryStage the primary stage
      * @throws Exception the exception
      * @see Override start

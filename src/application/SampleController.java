@@ -9,14 +9,20 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 
+
+/**
+ * The Class SampleController.
+ */
 public class SampleController implements Initializable{
+	
+	/** The media view. */
 	@FXML
     private MediaView mediaView;
-
-    /**
-     * @see javafx.fxml.Initializable(URL location, ResourceBundle resources)
-     */
-    @Override
+    
+	/**
+	 * javafx.fxml.Initializable(URL location, ResourceBundle resources)
+	 */
+	@Override
     public void initialize(URL location, ResourceBundle resources) {
 
         Media media2= new Media(getClass().getResource("/media/1.mp4").toExternalForm());
