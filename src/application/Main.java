@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 /**
  * The main class
@@ -25,9 +26,11 @@ import javafx.stage.Stage;
      * @throws Exception the exception
      * @see Override start
      */
+    
     @Override
     public void start(Stage primaryStage) throws Exception{
       this.stage=primaryStage;
+      stage.initStyle(StageStyle.UNDECORATED);
       mainWindow();
     }
 
